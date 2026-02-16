@@ -2,8 +2,7 @@
  *
  * @author patrickcarpenter
  */
-public class smallestLargestApp {
-    //
+public class smallestLargestApp 
     
     /*Init. Phase*/
     
