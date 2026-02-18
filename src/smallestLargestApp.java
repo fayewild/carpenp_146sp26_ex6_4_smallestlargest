@@ -1,4 +1,4 @@
-import java.util.Random;
+import java.util.random.RandomGenerator;
 
 /**
  * Should have added this sooner:
@@ -16,12 +16,12 @@ public class smallestLargestApp {
         // Maximum Value
         int maxi = 0;
         // Initialize Random Number Generator
-        Random rand = new Random();
+        RandomGenerator rand = RandomGenerator.getDefault();
         
         /*Processing Phase*/
         for (int i = 0; i < arr.length; ++i) {
         
-        int random = rand.nextInt(100);
+        int random = rand.nextInt(0, 100);
         arr[0+i] = random;
         
         if (arr[i] < mini) {
